@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Email Template</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: "Red Hat Display", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        
+      }
+        .w-50{
+            width: auto;
+        }
+      .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+      }
+
+      /* Header Section */
+      /* .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #026d35;
+        color: #ffffff;
+        padding: 10px 20px;
+      } */
+      .header {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #026d35;
+        color: #ffffff;
+      }
+      .header img {
+        max-width: 200px;
+    
+      }
+
+      /* Content Section */
+      .content {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .content h1 {
+        color: #026d35;
+        font-size: 24px;
+      }
+
+      .content img {
+        max-width: 100%;
+        height: auto;
+        margin: 20px 0;
+      }
+
+      .cta-button {
+        display: inline-block;
+        background-color: #026d35;
+        color: #ffffff;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 20px 0;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: #024c26;
+      }
+
+      .cta-but {
+        display: inline-block;
+        background-color: #cfa767;
+        color: #ffffff !important;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 20px 0;
+        font-size: 12px;
+      }
+
+      .cta-but:hover {
+        background-color: #af8b50;
+      }
+
+      /* Footer Section */
+      .footer {
+        background-color: #f4f4f4;
+        padding: 20px;
+        font-size: 12px;
+        color: #999999;
+      }
+      .footer a{
+        background-color: #f4f4f4;
+        color: #999999;
+      }
+
+      .footer-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 15px 0;
+      }
+
+      .footer-icons a {
+        color: #026d35;
+        font-size: 18px;
+        transition: color 0.3s ease;
+      }
+
+      .footer-icons a:hover {
+        color: #cfa767;
+      }
+
+      .footer-contact {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+
+      .footer-contact div {
+        flex: 1;
+        text-align: center;
+      }
+
+      .footer-contact div:first-child {
+        text-align: left;
+      }
+
+      .footer-contact div:last-child {
+        text-align: right;
+      }
+
+      /* Media Query for Mobile */
+      @media only screen and (max-width: 600px) {
+        .header {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .footer-contact {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .footer-contact div {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <header class="header">
+          <img src="./BOI LOGO white 1.png" alt="Company Logo Left" />
+      </header>
+
+      <!-- Content Section -->
+      <main class="content">
+        <h1>BUY VEHICLE INSURANCE</h1>
+        <img src="./boiib f15.png" alt="Personal Car" />
+        <h3>Covering you the easiest way</h3>
+        <a href="https://boiibonline.ng/" class="cta-button" target="_blank">GET STARTED</a>
+        <p>
+          BOI Insurance Brokers Limited 1st Floor, Peniel House 3, Ashabi Cole
+          Street Off Lateef Jakande Road Agidingbi, Ikeja P.O. Box 8351, Marina,
+          Lagos.
+        </p>
+        <a href="https://wa.me/2349043550331" class="cta-but" target="_blank">CHAT WITH US</a>
+      </main>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <!-- Social Media Icons -->
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/Boiibonline/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/boiibonlineng/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://x.com/boiibonlineng" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/boiibonlineng" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <!-- Footer Contact Information -->
+        <div class="footer-contact">
+          <div>
+            <i class="fa fa-phone"></i> +234 815-097-0591
+          </div>
+          <div>
+            <i class="fa fa-globe"></i> <a href="https://boiibonline.ng" target="_blank">www.boiibonline.ng</a><br />
+            <i class="fa fa-envelope"></i> <a href="mailto:info@boiibonline.ng" target="_blank">hi@boiibonline.ng</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
